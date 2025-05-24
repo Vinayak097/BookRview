@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+.bg-gray{
+  background-color: rgba(194, 189, 189, 0.131);
+}
+.headline{
+  font-family :"SF Pro Display", "SF Pro Icons", "Helvetica Neue","SF UI Display", "SF UI Text", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+height: auto;
+letter-spacing :-0.144px;
+line-height: 52.0077px;
+
+}
+.subheadline{
+  color: rgb(110, 110, 115);
+}
