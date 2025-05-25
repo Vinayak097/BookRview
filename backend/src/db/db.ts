@@ -2,7 +2,8 @@ import mongoose, { model, Schema } from 'mongoose'
 
 const bookSchema=new Schema({
     name:{require:true,
-        type:String
+        type:String,
+        unique:true
     },
     author:{
         require:true,
